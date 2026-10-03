@@ -2,9 +2,9 @@ name: Build KubeTaint
 
 on:
   push:
-    branches: [ slikube-enhancement, master ]
+    branches: [ slikube-enhancement, main ]
   pull_request:
-     branches: [ master ]
+     branches: [ main ]
 
 jobs:
   build:
@@ -32,6 +32,5 @@ jobs:
         pip install ruamel.yaml
         pip install pathlib
         # if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Run integration and taint-related tests 
-      run: |
-        python TEST_PARSING.py  
+     - name: Run fuzz testing
+        run: python fuzz.py
