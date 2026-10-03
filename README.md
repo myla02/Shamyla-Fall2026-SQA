@@ -4,6 +4,12 @@
 
 [![Actions Status](https://github.com/paser-group/KubeSec/workflows/Build%20KubeTaint/badge.svg)](https://github.com/Build%20TaintPupp/actions)
 
+# Software Quality Assurance Project
+**Team Member:** Shamyla Taylor
+**sot0003@auburn.edu**
+
+
+
 
 # Taintube: Taint Tracking for Security Analysis of Kubernetes Manifests 
 
