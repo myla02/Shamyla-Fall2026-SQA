@@ -1,0 +1,989 @@
+Slikube Fuzz Testing Results
+============================
+
+Random seed: 42
+Methods fuzzed: 10
+Tests per method: 100
+Total fuzz cases: 1000
+Failures detected: 163
+
+Failures are fuzzing observations and must be manually reviewed before being classified as software bugs.
+
+Method: checkIfWeirdYAML
+Test: 1
+Input type: float
+Input: 0.2095070307714877
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 2
+Input type: float
+Input: 0.6733645472933015
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 3
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 6
+Input type: float
+Input: 0.9731468158216944
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 8
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 9
+Input type: float
+Input: 0.4866327533642508
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 10
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 14
+Input type: int
+Input: 9455
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 18
+Input type: float
+Input: 0.7468530276328158
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 20
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 21
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 24
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 25
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 31
+Input type: int
+Input: -4841
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 35
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 44
+Input type: float
+Input: 0.20515536190932415
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 48
+Input type: float
+Input: 0.6000827864972248
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 49
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 50
+Input type: float
+Input: 0.6184993744874929
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 51
+Input type: int
+Input: -4527
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 53
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 54
+Input type: float
+Input: 0.4131630327983994
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 55
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 57
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 58
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 59
+Input type: float
+Input: 0.22056785195131035
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 61
+Input type: float
+Input: 0.5200741215564074
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 62
+Input type: float
+Input: 0.033992827823776994
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 64
+Input type: int
+Input: 8026
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 66
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 68
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 69
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 70
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 73
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 79
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 80
+Input type: int
+Input: -1214
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 83
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 86
+Input type: int
+Input: 4950
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 94
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 96
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 98
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfWeirdYAML
+Test: 100
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 1
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 3
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 5
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 6
+Input type: int
+Input: 8827
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 11
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 13
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 14
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 15
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 17
+Input type: float
+Input: 0.8654331732831615
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 18
+Input type: int
+Input: 703
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 19
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 20
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 21
+Input type: float
+Input: 0.5945471937823306
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 22
+Input type: int
+Input: 3926
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 25
+Input type: float
+Input: 0.26627113056947405
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 26
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 27
+Input type: float
+Input: 0.8805001274896682
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 35
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 39
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 42
+Input type: float
+Input: 0.2632971229684353
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 44
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 49
+Input type: float
+Input: 0.9430791313816406
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 55
+Input type: float
+Input: 0.5966707543922019
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 59
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 61
+Input type: int
+Input: 8849
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 64
+Input type: float
+Input: 0.7517920709498346
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 66
+Input type: int
+Input: 9359
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 68
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 69
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 70
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 72
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 73
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 74
+Input type: float
+Input: 0.9199967017790633
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 78
+Input type: int
+Input: 6681
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 79
+Input type: int
+Input: -5088
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 83
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 85
+Input type: NoneType
+Input: None
+Error: TypeError: argument of type 'NoneType' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 87
+Input type: float
+Input: 0.05160549987371621
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 88
+Input type: int
+Input: 9661
+Error: TypeError: argument of type 'int' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 89
+Input type: float
+Input: 0.2951920188268863
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 94
+Input type: bool
+Input: False
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 97
+Input type: bool
+Input: True
+Error: TypeError: argument of type 'bool' is not iterable
+--------------------------------------------------
+Method: checkIfValidHelm
+Test: 98
+Input type: float
+Input: 0.7036948136964665
+Error: TypeError: argument of type 'float' is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 6
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 9
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 10
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 11
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 14
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 15
+Input type: int
+Input: 5719
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 18
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 20
+Input type: float
+Input: 0.36758067629272495
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 27
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 29
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 31
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 33
+Input type: int
+Input: 4761
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 38
+Input type: float
+Input: 0.2944439628231428
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 41
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 44
+Input type: int
+Input: 3140
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 45
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 46
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 47
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 48
+Input type: int
+Input: 9002
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 49
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 50
+Input type: float
+Input: 0.8781055215691697
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 51
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 54
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 61
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 65
+Input type: int
+Input: 5115
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 66
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 67
+Input type: float
+Input: 0.5420106149893843
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 69
+Input type: float
+Input: 0.18762536323197276
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 70
+Input type: int
+Input: 4481
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 74
+Input type: int
+Input: -4636
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 75
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 77
+Input type: float
+Input: 0.5225602585522084
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 82
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 83
+Input type: float
+Input: 0.4309170120538095
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 89
+Input type: float
+Input: 0.6621483887989317
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 96
+Input type: int
+Input: 7310
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 99
+Input type: float
+Input: 0.9996949273496643
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: update_json_paths
+Test: 100
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 1
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 3
+Input type: float
+Input: 0.9028867415828632
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 4
+Input type: float
+Input: 0.6786674593607497
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 8
+Input type: int
+Input: 5354
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 11
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 15
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 17
+Input type: int
+Input: 7817
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 18
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 20
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 21
+Input type: int
+Input: -876
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 24
+Input type: int
+Input: 3564
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 26
+Input type: int
+Input: 9253
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 32
+Input type: int
+Input: 2244
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 33
+Input type: float
+Input: 0.9871519772572916
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 36
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 40
+Input type: float
+Input: 0.09943200671214791
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 42
+Input type: int
+Input: 9906
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 43
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 44
+Input type: int
+Input: -7585
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 46
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 50
+Input type: float
+Input: 0.05817180940104427
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 51
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 52
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 56
+Input type: float
+Input: 0.12851307277671986
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 57
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 59
+Input type: int
+Input: 8813
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 60
+Input type: int
+Input: 3946
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 63
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 64
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 68
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 69
+Input type: int
+Input: 468
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 72
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 77
+Input type: int
+Input: 9291
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 78
+Input type: float
+Input: 0.9040351893322026
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 86
+Input type: int
+Input: -599
+Error: TypeError: 'int' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 87
+Input type: bool
+Input: False
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 90
+Input type: float
+Input: 0.2472941471955813
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 91
+Input type: float
+Input: 0.27537789928715695
+Error: TypeError: 'float' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 94
+Input type: bool
+Input: True
+Error: TypeError: 'bool' object is not iterable
+--------------------------------------------------
+Method: getSingleDict4MultiDocs
+Test: 96
+Input type: NoneType
+Input: None
+Error: TypeError: 'NoneType' object is not iterable
+--------------------------------------------------
