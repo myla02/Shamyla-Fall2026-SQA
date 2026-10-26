@@ -14,13 +14,14 @@ import pathlib as pl
 import re
 import subprocess
 import os
+from forensics import forensic_log
 
 #update basepath
 base_path = r" "
 
 key_jsonpath_mapping = {}
 
-    
+@forensic_log   
 def checkIfWeirdYAML(yaml_script):
     '''
     to filter invalid YAMLs such as ./github/workflows/ 
@@ -30,7 +31,7 @@ def checkIfWeirdYAML(yaml_script):
         val = True 
     return val 
 
-
+@forensic_log
 def keyMiner(dic_, value):
   '''
   If you give a value, then this function gets the corresponding key, and the keys that call the key 
@@ -52,7 +53,7 @@ def keyMiner(dic_, value):
         return [str(i)] + p
 
 
-
+@forensic_log
 def getKeyRecursively(  dict_, list2hold,  depth_ = 0  ) :
     '''
     gives you ALL keys in a regular/nested dictionary 
@@ -72,8 +73,9 @@ def getKeyRecursively(  dict_, list2hold,  depth_ = 0  ) :
                             getKeyRecursively( listItem, list2hold,  depth_ )     
             else: 
                 list2hold.append( (key_, depth_) ) 
-    #print(list2hold)               
-
+    #print(list2hold)   
+            
+@forensic_log
 def getValuesRecursively(  dict_   ) :
     '''
     gives you ALL values in a regular/nested dictionary 
@@ -108,7 +110,7 @@ def checkIfValidK8SYaml(path2yaml):
     return val2ret
 
 
-
+@forensic_log
 def getValsFromKey(dict_, target, list_holder  ):
     '''
     If you give a key, then this function gets the corresponding values 
@@ -125,13 +127,14 @@ def getValsFromKey(dict_, target, list_holder  ):
                 elif isinstance(value, list):
                     for ls in value:
                         getValsFromKey(ls, target, list_holder)
-
+@forensic_log
 def checkIfValidHelm(path_script):
     val_ret = False 
     if ( (constants.HELM_KW in path_script) or (constants.CHART_KW in path_script) or (constants.SERVICE_KW in path_script) or (constants.INGRESS_KW in path_script)  or(constants.HELM_DEPLOY_KW in path_script) or (constants.CONFIG_KW in path_script) )  and (constants.VALUE_KW in path_script) :
         val_ret = True 
     return val_ret
 
+@forensic_log
 def readYAMLAsStr( path_script ):
     yaml_as_str = constants.YAML_SKIPPING_TEXT
     with open( path_script , constants.FILE_READ_FLAG) as file_:
@@ -156,7 +159,7 @@ def checkParseError( path_script ):
             flag = False
             print( constants.YAML_SKIPPING_TEXT  )
     return flag
-
+@forensic_log
 def loadMultiYAML( script_ ):
     dicts2ret = []  
     with open(script_, constants.FILE_READ_FLAG  ) as yml_content :
@@ -296,7 +299,7 @@ def find_json_path_keys(json_file, parent_path='', paths=None):
 
 """"The following function is used to update the json path in the key_jsonpath_mapping dictionary.
 Useful in MultiYaml file format but redundant in single yaml Need to merge with the above function """
-
+@forensic_log
 def update_json_paths (paths):
     #[3].metadata.name --> .metadata.name
     regex_remove_initial_index = re.compile("^/?(\[)([0-9])+(\])")
@@ -361,7 +364,7 @@ def show_line_for_paths(  filepath, key): #key_jsonpath_mapping is a global dict
     return lines
 
 
-
+@forensic_log
 def getSingleDict4MultiDocs( lis_dic ):
     dict2ret = {} 
     key_lis  = []
