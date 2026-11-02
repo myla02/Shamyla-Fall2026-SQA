@@ -33,8 +33,7 @@ The workflow initially failed because of a YAML formatting error. After fixing i
 
 ## Challenges and Lessons Learned
 
-I had to fix issues with GitHub push protection, GitHub Actions formatting, and verifying forensic logs.
-
+One challenge was testing 10 methods using fuzz testing and making sure forensic logging worked correctly.
 This project helped me understand how fuzz testing finds possible errors, how forensic logging tracks program activity, and how GitHub Actions automatically tests code changes.
 
 ## Conclusion
