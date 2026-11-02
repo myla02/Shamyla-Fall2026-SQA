@@ -38,7 +38,7 @@ This project helped me understand how fuzz testing finds possible errors, how fo
 
 ## Conclusion
 
-Overall, I completed fuzz testing, forensic logging, and continuous integration. I also learned the importance of testing changes to make sure the original program still works.
+This project gave me hands-on experience with fuzz testing, forensic logging, and continuous integration. I learned how these techniques can help identify errors, track program activity, and improve the software testing process.
 
 ## Screenshots and Testing Evidence
 
